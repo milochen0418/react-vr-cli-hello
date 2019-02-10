@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create-office": "./node_modules/.bin/react-vr init office",
+    "create-project": "./node_modules/.bin/react-vr init project",
     "clean": "rm -rf ./node_modules && rm -f package-lock.json",
     "help": "cat ./package.json | jq '.scripts'"
   },
