@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create-project": "./node_modules/.bin/react-vr init project",
+    "create": "./node_modules/.bin/react-vr init $1",
     "clean": "rm -rf ./node_modules && rm -f package-lock.json",
     "help": "cat ./package.json | jq '.scripts'"
   },

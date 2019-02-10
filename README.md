@@ -7,6 +7,10 @@ $ npm run help
 # Clean all
 $ npm run clean 
 
+# create project
+Create a project named `proj_name`  
+$ npm run create proj_name  
+
 
 
 
