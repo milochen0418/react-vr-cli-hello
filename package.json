@@ -1,0 +1,25 @@
+{
+  "name": "react-vr-cli-hello",
+  "version": "1.0.0",
+  "description": "react-vr-clie hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-office": "./node_modules/.bin/react-vr init office",
+    "clean": "rm -rf ./node_modules && rm -f package-lock.json",
+    "help": "cat ./package.json | jq '.scripts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milochen0418/react-vr-cli-hello.git"
+  },
+  "author": "Milo Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milochen0418/react-vr-cli-hello/issues"
+  },
+  "homepage": "https://github.com/milochen0418/react-vr-cli-hello#readme",
+  "devDependencies": {
+    "react-vr-cli": "^0.3.6"
+  }
+}
