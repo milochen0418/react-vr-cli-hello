@@ -1,5 +1,5 @@
-# react-vr-cli-hello
-react-vr-cli hello
+# react-vr-creator
+react-vr project creator 
 # install basic package
 $ npm install 
 # Query how many intresting VR project you can create
